@@ -1,0 +1,185 @@
+.export_popup__icon.unisender_logo_min {
+    width: 65px;
+    height: 55px;
+    background: url(images/logo_min.png) no-repeat;
+    float: left;
+}
+
+select.unisender_sections, ul.unisender_sections{
+    border: 1px solid #bababa;
+    margin: 16px 0;
+    height: 200px;
+    padding: 9px 15px;
+    font-size: 14px;
+}
+
+select.unisender_sections option{
+    background: url(images/chbox.png) scroll no-repeat 0 0;
+    padding-left: 20px;
+    white-space: normal;
+}
+
+select.unisender_sections option:checked,
+select.unisender_sections:focus-within option:checked,
+select.unisender_sections:focus option:checked{
+    background-image: url(images/chbox_active.png);
+    color: #2e3640;
+}
+
+ul.unisender_sections {
+    background-color: #ffffff;
+    padding: 12px 0px 0 35px;
+    overflow-y: auto;
+}
+
+ul.unisender_sections li{
+    list-style-image: url(images/chbox.png);
+}
+
+ul.unisender_sections li.active{
+    list-style-image: url(images/chbox_active.png);
+}
+
+.unisender_custom_fields_left{
+    display: block;
+    width: 48%;
+    float: left;
+}
+
+.unisender_custom_fields_right{
+    display: block;
+    width: 48%;
+    float: right;
+}
+
+.unisender_transfer_fields, .unisender_custom_fields{
+    margin-bottom: 20px;
+}
+
+.unisender_transfer_fields {
+  font-size: 14px;
+}
+
+.unisender_transfer_fields input {
+  margin-left:10px;
+}
+
+.unisender_custom_fields select{
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px solid #bbbbbb;
+}
+
+.unisender_custom_fields p{
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+
+.unisender_custom_fields p.u-label{
+    margin-bottom: 1px;
+}
+
+.clear{
+    clear: both;
+}
+
+.unisender_body_wrap h3{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.unisender_body_wrap h4{
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.unisender_body_wrap .errors{
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.unisender_v02_widget_caption{
+    background-color: #213D48;
+}
+
+.unisender_v02_widget_caption .card-widgets__widget__caption__logo{
+    margin-top: 10px;
+    height: 16px;
+}
+
+.card-widgets__widget .card-widgets__widget__body{
+    margin-top: 16px;
+    padding-left: 16px;
+    margin-bottom: 30px;
+}
+
+.button-input_uni{
+    border: 1px solid #000000;
+    background: #213D48;
+    color: #fff;
+    width: 100%;
+}
+.button-input_uni:hover{
+    background: #213D48 !important;
+}
+
+.button-unsubscrube_uni{
+    border: 1px solid #DD1645;
+    background: #DD2655;
+    color: #fff;
+    width: 100%;
+    margin: 10px 0px !important;
+}
+.button-unsubscrube_uni:hover{
+    background: #DD1645 !important;
+}
+
+.unisender_body_wrap .button-cancel{
+    width: 100%;
+    color: #213D48;
+    margin-left: 0px !important;
+}
+.unisender_info{
+    font-size: 16px;
+    color: #996633;
+    padding: 5px;
+}
+
+.custom_fields_block {
+  border: 1px solid #BBBBBB;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#unisender_add_field {
+  display: inline-block;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid #AAAAAA;
+  border-radius: 50%;
+}
+#unisender_add_field::before, #unisender_add_field::after {
+  position: absolute;
+  content: '';
+  background: #AAAAAA;
+}
+#unisender_add_field::before {
+  width: 7px;
+  height: 1px;
+  left: calc(50% - 3.5px);
+  top: calc(50% - .5px);
+}
+#unisender_add_field::after {
+  width: 1px;
+  height: 7px;
+  left: calc(50% - .5px);
+  top: calc(50% - 3.5px);
+}

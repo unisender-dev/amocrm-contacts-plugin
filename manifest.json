@@ -1,0 +1,49 @@
+{
+  "widget":{
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "code": "amo_unisender_v022",
+    "secret_key": "678c65ae7c6629e4b104cc79391875c83c0c7a6e7a8f9dff20138165588b9dbc",
+    "version": "2.4",
+    "interface_version": 2,
+    "init_once": false,
+    "locale":["ru"],
+    "installation": true,
+    "support": {
+      "link": "https://www.unisender.com/ru/support/integration/crm/amocrmnew/",
+      "email": "support@unisender.com"
+    }
+  },
+  "locations":[
+    "ccard-1",
+    "clist-0",
+    "lcard-1",
+    "llist-0",
+    "comcard-1",
+    "digital_pipeline",
+    "settings"
+  ],
+  "settings":{
+    "api_key":{
+      "name": "settings.api_key",
+      "type": "text",
+      "required": true
+    }
+  },
+  "dp": {
+    "settings": {
+      "list": {
+        "name": "settings.list",
+        "type": "text",
+        "required": true
+      },
+      "all_contacts": {
+        "name": "settings.all_contacts",
+        "type": "text",
+        "required": false
+      }
+    },
+    "action_multiple": false
+  }
+}
